@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ajmal Badarudeen - IT Administrator & Network Engineer based in Doha, Qatar. 7+ years expertise in Enterprise Networking, Huawei Controller, Fortinet Security, Opera PMS, Micros POS, and ELV Systems." />
+  <meta name="keywords" content="Ajmal Badarudeen, IT Administrator Doha, Network Engineer Qatar, Huawei Controller, Fortinet, Opera PMS, CCTV, ELV, FIFA World Cup IT" />
+  <meta name="author" content="Ajmal Badarudeen" />
+  <title>Ajmal Badarudeen | IT Administrator & Network Engineer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ajmal Badarudeen Home">
+        <span class="logo-accent">&lt;</span>Ajmal<span class="logo-dot">.</span>B<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="icon-btn theme-toggle" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <!-- CV Download Action -->
+        <a href="assets/Ajmal_Resume.pdf" class="btn btn-outline cv-btn" target="_blank" download="Ajmal_Badarudeen_CV.pdf" title="Download Official CV (PDF)">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Resume (PDF)</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileMenuBtn" class="mobile-toggle" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <canvas id="networkCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-pulse"></span>
+            <span>Available for Opportunities in Qatar (NOC Available)</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Ajmal Badarudeen</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="role-prefix">I am an</span>
+            <span class="typed-role" id="typedRole">IT Administrator & Network Engineer</span>
+          </div>
+
+          <p class="hero-description">
+            Results-driven IT professional with <strong>7+ years</strong> of expertise in enterprise network architecture, <strong>Huawei Controller</strong> management, <strong>Fortinet</strong> network security, hospitality tech ecosystems (Opera PMS & Micros POS), and mission-critical event infrastructure across Qatar.
+          </p>
+
+          <div class="hero-meta-badges">
+            <span class="meta-pill"><i class="fa-solid fa-location-dot"></i> Doha, Qatar</span>
+            <span class="meta-pill"><i class="fa-solid fa-id-card"></i> Qatar Valid License</span>
+            <span class="meta-pill"><i class="fa-solid fa-passport"></i> Qatar Visa with NOC</span>
+            <span class="meta-pill"><i class="fa-solid fa-language"></i> 5 Languages</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Get In Touch
+            </a>
+            <a href="assets/Ajmal_Resume.pdf" target="_blank" download="Ajmal_Badarudeen_CV.pdf" class="btn btn-glass" title="Download Official CV (PDF)">
+              <i class="fa-solid fa-file-pdf"></i> Download CV (.pdf)
+            </a>
+            <a href="https://wa.me/97430749247" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" aria-label="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Tech Console / Terminal Showcase (No photo image) -->
+        <div class="hero-card-col">
+          <div class="tech-console-wrapper">
+            <div class="tech-console-glow"></div>
+            <div class="tech-console-card">
+              <div class="console-header">
+                <div class="console-traffic-lights">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="console-title"><i class="fa-solid fa-terminal"></i> ajmal@network-terminal:~#</div>
+                <div class="console-status-badge">
+                  <span class="live-dot"></span> LIVE
+                </div>
+              </div>
+
+              <div class="console-body">
+                <div class="console-row">
+                  <span class="cmd-prompt">admin&gt;</span>
+                  <span class="cmd-text">show system information</span>
+                </div>
+                <div class="console-output highlight-output">
+                  <div class="info-line"><span class="k">Name:</span> <span class="v">Ajmal Badarudeen (Ajmal.B)</span></div>
+                  <div class="info-line"><span class="k">Role:</span> <span class="v">IT Administrator &amp; Network Engineer</span></div>
+                  <div class="info-line"><span class="k">Location:</span> <span class="v">Doha, Qatar</span></div>
+                  <div class="info-line"><span class="k">License:</span> <span class="v" style="color: var(--accent-emerald);"><i class="fa-solid fa-id-card"></i> Qatar Valid License (Active)</span></div>
+                  <div class="info-line"><span class="k">Experience:</span> <span class="v">7+ Years (Enterprise &amp; Hospitality)</span></div>
+                  <div class="info-line"><span class="k">Resume:</span> <span class="v"><a href="assets/Ajmal_Resume.pdf" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;"><i class="fa-solid fa-file-pdf"></i> Ajmal_Resume.pdf [View]</a></span></div>
+                </div>
+
+                <div class="console-row mt-12">
+                  <span class="cmd-prompt">admin&gt;</span>
+                  <span class="cmd-text">diagnose controller &amp; network status</span>
+                </div>
+                <div class="console-diagnostics">
+                  <div class="diag-item">
+                    <span class="diag-label"><i class="fa-solid fa-tower-broadcast"></i> Huawei Controller</span>
+                    <span class="diag-badge status-ok"><i class="fa-solid fa-check"></i> MANAGING &amp; ACTIVE</span>
+                  </div>
+                  <div class="diag-item">
+                    <span class="diag-label"><i class="fa-solid fa-shield-halved"></i> FortiGate Firewall</span>
+                    <span class="diag-badge status-ok"><i class="fa-solid fa-check"></i> SECURED &amp; ROUTED</span>
+                  </div>
+                  <div class="diag-item">
+                    <span class="diag-label"><i class="fa-solid fa-network-wired"></i> Cisco &amp; Huawei VLANs</span>
+                    <span class="diag-badge status-ok"><i class="fa-solid fa-check"></i> PORT TAGGED / 0 DOWNTIME</span>
+                  </div>
+                  <div class="diag-item">
+                    <span class="diag-label"><i class="fa-solid fa-hotel"></i> Opera PMS &amp; Micros</span>
+                    <span class="diag-badge status-ok"><i class="fa-solid fa-check"></i> ONLINE / SYNCHRONIZED</span>
+                  </div>
+                  <div class="diag-item">
+                    <span class="diag-label"><i class="fa-solid fa-server"></i> Active Directory (ADDS)</span>
+                    <span class="diag-badge status-ok"><i class="fa-solid fa-check"></i> GPO CONFIGURED</span>
+                  </div>
+                </div>
+
+                <div class="console-row mt-12">
+                  <span class="cmd-prompt">admin&gt;</span>
+                  <span class="cmd-text">list core-competencies</span>
+                </div>
+                <div class="console-tags-grid">
+                  <span class="terminal-tag"><i class="fa-solid fa-id-card"></i> Qatar Valid License</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-tower-broadcast"></i> Huawei Controller</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-shield-virus"></i> Fortinet Firewall</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-network-wired"></i> Cisco Switches</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-bolt"></i> Fiber Splicing</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-hotel"></i> Opera PMS</span>
+                  <span class="terminal-tag"><i class="fa-solid fa-video"></i> IP CCTV</span>
+                </div>
+              </div>
+
+              <div class="console-footer">
+                <div class="console-metric-footer">
+                  <i class="fa-solid fa-award"></i>
+                  <span>7+ Years Enterprise Experience in Qatar | NOC Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Counter Strip -->
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fa-solid fa-business-time"></i></div>
+            <div class="metric-number" data-target="7">7+</div>
+            <div class="metric-label">Years Enterprise Experience</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="metric-number" data-target="15">15+</div>
+            <div class="metric-label">Major Projects Delivered</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="metric-number">FIFA '22</div>
+            <div class="metric-label">World Cup Qatar IT Support</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+            <div class="metric-number">Huawei &amp; Fortinet</div>
+            <div class="metric-label">Controller &amp; Network Security</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Professional Background</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Dedicated to ensuring reliable, secure, and optimized IT operations</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-col">
+            <h3 class="about-heading">Detail-Oriented IT Specialist with 7 Years of Enterprise Excellence in Qatar</h3>
+            <p class="about-para">
+              I am an experienced IT Support Specialist and Network Engineer with an extensive background in maintaining, troubleshooting, and securing IT systems across hardware, software, server, and network platforms. Over the past 7 years in Qatar, I have demonstrated a proven track record of reducing downtime, enhancing cybersecurity posture, and delivering seamless user support for enterprise environments, five-star hospitality venues, and international events such as the <strong>FIFA World Cup 2022</strong>.
+            </p>
+            <p class="about-para">
+              My core competencies span <strong>Huawei Controller management</strong>, <strong>Fortinet FortiGate Firewall configuration</strong>, inter-VLAN routing, Active Directory (ADDS), Opera PMS, Micros POS, ELV systems (Vision Line door locks, biometric access, and Hikvision/Wisenet CCTV), Avaya IP telephony, and optical fiber fusion splicing.
+            </p>
+
+            <div class="personal-highlights-grid">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Location:</strong> Doha, Qatar
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>License:</strong> Qatar Valid License
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Visa Status:</strong> Qatar Resident with NOC Available
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Nationality:</strong> Indian
+                </div>
+              </div>
+            </div>
+
+            <!-- Languages spoken -->
+            <div class="languages-box">
+              <h4 class="languages-title"><i class="fa-solid fa-comments"></i> Multilingual Communication:</h4>
+              <div class="language-tags">
+                <span class="lang-tag"><strong>English</strong> (Professional)</span>
+                <span class="lang-tag"><strong>Arabic</strong> (Working Proficiency)</span>
+                <span class="lang-tag"><strong>Hindi</strong> (Fluent)</span>
+                <span class="lang-tag"><strong>Tamil</strong> (Fluent)</span>
+                <span class="lang-tag"><strong>Malayalam</strong> (Native)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-strengths-col">
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
+              <div class="strength-body">
+                <h4>Huawei Controller &amp; Wireless APs</h4>
+                <p>Expertise in managing Huawei Controllers, configuring centralized wireless Access Points, RF tuning, roaming optimization, and VLAN mapping.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-shield-virus"></i></div>
+              <div class="strength-body">
+                <h4>Network &amp; Fortinet Security</h4>
+                <p>Fortinet FortiGate management, traffic inspection, inter-VLAN policy routing, VPN setup, and OSPF/EIGRP/RIP v2 routing.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-hotel"></i></div>
+              <div class="strength-body">
+                <h4>Hospitality IT Infrastructure</h4>
+                <p>End-to-end administration of Opera PMS, Micros POS, Hoist Group IPTV channels, Adria passport scanners, and guest Wi-Fi gateways.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon"><i class="fa-solid fa-fingerprint"></i></div>
+              <div class="strength-body">
+                <h4>ELV, Access &amp; CCTV Systems</h4>
+                <p>Vision Line electronic locks, biometric access control, encoder programming, optical fiber fusion splicing, and IP CCTV surveillance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Expertise</span></h2>
+          <p class="section-subtitle">Comprehensive technical proficiency built over 7 years in the field</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: Networking & Security -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <h3 class="category-title">Networking &amp; Wireless Management</h3>
+            </div>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>Huawei Controller Managing &amp; APs</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Fortinet FortiGate Firewall Management</span>
+                  <span class="skill-pct">94%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 94%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Cisco &amp; Huawei Switches / Routers</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>VLAN Configuration &amp; Port Tagging</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Routing Protocols (OSPF, EIGRP, RIP v2)</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Optical Fiber Fusion Splicing &amp; Patching</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Hospitality & Enterprise Systems -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-hotel"></i></div>
+              <h3 class="category-title">Hospitality &amp; Enterprise IT</h3>
+            </div>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>Opera PMS Installation &amp; Java Setup</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Micros POS &amp; Revenue Center Config</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Hoist Group IPTV &amp; Channel Matrix</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Active Directory (ADDS) &amp; GPO</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Windows 365 &amp; Microsoft 365 / Outlook</span>
+                  <span class="skill-pct">94%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 94%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Material Control (MC) Hospitality Systems</span>
+                  <span class="skill-pct">86%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 86%"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: ELV & Access Control -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-video"></i></div>
+              <h3 class="category-title">ELV, CCTV &amp; Access Control</h3>
+            </div>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>Vision Line Electronic Door Locks</span>
+                  <span class="skill-pct">94%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 94%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Biometric Devices &amp; Staff Access IDs</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Hikvision &amp; Wisenet IP CCTV Cameras</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Key Card Encoder Handling &amp; Programming</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Server Rack Management &amp; GI Piping</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Hardware, Telecom & ATMs -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3 class="category-title">Hardware, Telecom &amp; Devices</h3>
+            </div>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>Avaya IP Telephony Setup &amp; Termination</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>NCR &amp; Wincor ATM Terminals &amp; EPP</span>
+                  <span class="skill-pct">86%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 86%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Canon, HP, &amp; Thermal Printers Config</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>System Data Cloning &amp; Data Recovery</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Adria Passport &amp; Document Scanners</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Work History</span>
+          <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+          <p class="section-subtitle">Chronological progression of technical leadership and IT administration roles</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge current">Current Role</span>
+                  <h3 class="timeline-role">IT Administrator</h3>
+                  <h4 class="timeline-company"><i class="fa-solid fa-hotel"></i> Sapphire Plaza Hotel, Bin Mahmood</h4>
+                </div>
+                <span class="timeline-period"><i class="fa-regular fa-calendar-days"></i> 2023 - Present</span>
+              </div>
+              <p class="timeline-desc">
+                Leading the IT infrastructure operations, enterprise PMS/POS support, network security, and guest technology solutions across hotel operations.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Managing <strong>Huawei Controller</strong> and configuring centralized enterprise wireless Access Points across hotel floors, ensuring seamless roaming and robust connectivity.</li>
+                <li>Configured and maintained <strong>Fortinet FortiGate Firewall</strong>, VLAN segregation, and secure inter-VLAN routing for guest vs. internal corporate networks.</li>
+                <li>Administered Opera PMS installation, Java environment configuration, and specialized Opera thermal and network printers.</li>
+                <li>Managed Micros POS systems, revenue center item configurations, and financial terminal connectivity.</li>
+                <li>Handled Hoist Group IPTV streaming system, channel distribution, and guest Wi-Fi authentication portals.</li>
+                <li>Maintained Vision Line electronic door locking systems, staff access permissions, and biometric time-attendance terminals.</li>
+                <li>Managed Avaya IP Telephony PBX, extension provisioning, and Active Directory / Group Policy troubleshooting.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Huawei Controller</span>
+                <span>Fortinet FortiGate</span>
+                <span>Opera PMS</span>
+                <span>Micros POS</span>
+                <span>Vision Line</span>
+                <span>Active Directory</span>
+                <span>Avaya IP Phone</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Network Engineer</h3>
+                  <h4 class="timeline-company"><i class="fa-solid fa-shield-halved"></i> Oryx Security System, Doha, Qatar</h4>
+                </div>
+                <span class="timeline-period"><i class="fa-regular fa-calendar-days"></i> 2022 - 2023</span>
+              </div>
+              <p class="timeline-desc">
+                Spearheaded optical fiber deployments, industrial CCTV surveillance networks, and enterprise switching infrastructure for major industrial and commercial clients.
+              </p>
+              <ul class="timeline-bullets">
+                <li><strong>Doha Exhibition Center (DEC):</strong> Full-scale installation, IP addressing, and NVR configuration for Hikvision surveillance camera network.</li>
+                <li><strong>AAB TOYOTA (Wukair Yard, St. 34 &amp; 38, Salwa Spare Parts):</strong> Executed high-precision optical fiber fusion splicing, GI piping, patch panel termination, and Wisenet IP camera deployment.</li>
+                <li>Configured managed switches, port tagging, VLAN trunking, and redundant network uplinks.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Fiber Fusion Splicing</span>
+                <span>Hikvision IP CCTV</span>
+                <span>Wisenet</span>
+                <span>Switch Configuration</span>
+                <span>Patch Panels</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge event">Global Event</span>
+                  <h3 class="timeline-role">IT Support Specialist — FIFA World Cup Qatar 2022</h3>
+                  <h4 class="timeline-company"><i class="fa-solid fa-futbol"></i> MANNAI Corporation, Doha, Qatar</h4>
+                </div>
+                <span class="timeline-period"><i class="fa-regular fa-calendar-days"></i> 2022</span>
+              </div>
+              <p class="timeline-desc">
+                Delivered front-line mission-critical IT infrastructure and technical support during the world's premier football championship in Qatar.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Deployed, configured, and troubleshot the official FIFA HAYYA software system and credential card printers under tight operational deadlines.</li>
+                <li>Ensured 100% operational readiness for critical scanning terminals, accreditation centers, and network connectivity.</li>
+                <li>Provided high-urgency hardware diagnostic resolution for badge issuance and attendee processing hubs.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>FIFA Hayya System</span>
+                <span>High-Volume Card Printers</span>
+                <span>Event IT Operations</span>
+                <span>Mission Critical Support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Technical Support Specialist</h3>
+                  <h4 class="timeline-company"><i class="fa-solid fa-building"></i> Allied Enterprises, Doha, Qatar</h4>
+                </div>
+                <span class="timeline-period"><i class="fa-regular fa-calendar-days"></i> 2021 - 2022</span>
+              </div>
+              <p class="timeline-desc">
+                Managed wireless networking rollouts and organized server rack infrastructure for enterprise facilities.
+              </p>
+              <ul class="timeline-bullets">
+                <li><strong>Teyseer Accommodation:</strong> Structured cabling and deployment of enterprise Wi-Fi Access Points (APs) ensuring seamless wireless coverage.</li>
+                <li><strong>Rafeek Mart Office Lusail:</strong> Patch panel terminations, server rack arrangement, cable management, and switch patching.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Access Points (AP)</span>
+                <span>Rack Dressing</span>
+                <span>Structured Cabling</span>
+                <span>Network Switching</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge event">International Event</span>
+                  <h3 class="timeline-role">IT Support Specialist — FIFA Arab Cup 2021</h3>
+                  <h4 class="timeline-company"><i class="fa-solid fa-trophy"></i> MANNAI Corporation, Doha, Qatar</h4>
+                </div>
+                <span class="timeline-period"><i class="fa-regular fa-calendar-days"></i> 2021</span>
+              </div>
+              <p class="timeline-desc">
+                Provided on-site technical deployment and troubleshooting for HAYYA software platforms, accreditation printers, and network endpoints during the Arab Cup tournament.
+              </p>
+              <div class="timeline-tags">
+                <span>Arab Cup Qatar</span>
+                <span>HAYYA Software</span>
+                <span>Rapid Response IT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Qatar Valid License Highlight Card -->
+          <div class="timeline-license-card">
+            <div class="tl-license-icon"><i class="fa-solid fa-id-card"></i></div>
+            <div class="tl-license-info">
+              <h4>Qatar Valid License</h4>
+              <p>Active Qatar Driving License (Light Vehicle) &bull; Immediate availability and mobility for on-site client visits, enterprise setups, and infrastructure deployments across Qatar.</p>
+            </div>
+            <span class="tl-license-badge"><i class="fa-solid fa-circle-check"></i> Valid &amp; Active</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Projects Showcase Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> Portfolio Highlights</span>
+          <h2 class="section-title">Key Projects &amp; <span class="gradient-text">Deployments</span></h2>
+          <p class="section-subtitle">Real-world enterprise implementations and mission-critical milestones in Qatar</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="networking">Networking &amp; Security</button>
+          <button class="filter-btn" data-filter="hospitality">Hospitality IT</button>
+          <button class="filter-btn" data-filter="elv">Surveillance &amp; ELV</button>
+          <button class="filter-btn" data-filter="events">Major Events</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="events">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-futbol"></i> Global Event</span>
+              <span class="project-year">2022</span>
+            </div>
+            <h3 class="project-title">FIFA World Cup 2022 Hayya IT Infrastructure</h3>
+            <p class="project-company">MANNAI Corporation | Doha, Qatar</p>
+            <p class="project-desc">
+              Provided direct technical deployment and real-time troubleshooting for the official HAYYA software system, high-speed credential card printing terminals, and secure network links handling hundreds of thousands of international tournament guests.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Zero downtime recorded during peak match registration hours</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Resolved high-volume thermal printer and system communication issues</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>HAYYA Software</span>
+              <span>Thermal Card Printers</span>
+              <span>LAN/WLAN</span>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-category="hospitality networking">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-hotel"></i> Hospitality IT</span>
+              <span class="project-year">2023 - Present</span>
+            </div>
+            <h3 class="project-title">Sapphire Plaza Hotel Full IT Infrastructure</h3>
+            <p class="project-company">Bin Mahmood, Doha</p>
+            <p class="project-desc">
+              Complete administration and modernization of hotel IT systems: Huawei Controller centralized AP setup, Fortinet FortiGate firewall rules, Opera PMS, Micros POS Revenue Center, Hoist Group IPTV channels, Vision Line keycard locks, and Avaya IP Telephony PBX.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Huawei Controller AP deployment delivering uninterrupted Wi-Fi across all guest floors</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Segmented guest Wi-Fi and corporate finance network via Fortinet VLANs</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Huawei Controller</span>
+              <span>FortiGate Firewall</span>
+              <span>Opera PMS</span>
+              <span>Micros POS</span>
+              <span>Vision Line</span>
+              <span>Avaya PBX</span>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-category="elv networking">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-camera"></i> Security &amp; ELV</span>
+              <span class="project-year">2022 - 2023</span>
+            </div>
+            <h3 class="project-title">Doha Exhibition Center (DEC) Hikvision Surveillance</h3>
+            <p class="project-company">Oryx Security System | Doha, Qatar</p>
+            <p class="project-desc">
+              High-definition IP surveillance deployment covering large-scale convention exhibition halls. Configured IP subnets, NVR storage pools, motion detection analytics, and network switch port tagging.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Full compliance with Qatar MOI-SSD video security regulations</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Optimized video streaming bandwidth across managed Cisco switches</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Hikvision IP Cameras</span>
+              <span>NVR / Storage</span>
+              <span>Managed Switches</span>
+              <span>VLAN Tagging</span>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-category="elv networking">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-bolt"></i> Fiber &amp; Infrastructure</span>
+              <span class="project-year">2022 - 2023</span>
+            </div>
+            <h3 class="project-title">AAB TOYOTA Optical Fiber &amp; Wisenet CCTV</h3>
+            <p class="project-company">Wukair Yard, Salwa &amp; Industrial Area</p>
+            <p class="project-desc">
+              Comprehensive optical fiber infrastructure including core fusion splicing, GI conduit piping, patch panel termination, and Wisenet IP camera configuration across expansive automotive storage yards and spare parts hubs.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Fusion spliced multi-core single-mode fiber with ultra-low dB loss</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Delivered resilient outdoor industrial surveillance backbone</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Optical Fiber Fusion Splicing</span>
+              <span>Wisenet IP Cameras</span>
+              <span>Patch Panels</span>
+              <span>GI Piping</span>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card" data-category="networking">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-server"></i> Server Infrastructure</span>
+              <span class="project-year">2021 - 2022</span>
+            </div>
+            <h3 class="project-title">Rafeek Mart Office Lusail Server Rack Architecture</h3>
+            <p class="project-company">Allied Enterprises | Lusail City</p>
+            <p class="project-desc">
+              Server room design and execution: complete rack dressing, patch panel termination, core switch cross-connects, cable labeling, and power backup (UPS) integration for headquarter office operations.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Structured high-density Cat6 cabling and color-coded patch bay</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Streamlined troubleshooting and port mapping documentation</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Server Rack Dressing</span>
+              <span>Patch Panels</span>
+              <span>Cat6 Structured Cabling</span>
+              <span>UPS</span>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card" data-category="networking hospitality">
+            <div class="project-card-header">
+              <span class="project-category"><i class="fa-solid fa-wifi"></i> Wireless Networking</span>
+              <span class="project-year">2021 - 2022</span>
+            </div>
+            <h3 class="project-title">Teyseer Accommodation Enterprise Wi-Fi Rollout</h3>
+            <p class="project-company">Allied Enterprises | Doha, Qatar</p>
+            <p class="project-desc">
+              Extensive deployment of commercial wireless Access Points (APs) across multi-block residential accommodations. Heat mapping, channel allocation, and client load balancing.
+            </p>
+            <div class="project-highlights">
+              <div class="ph-item"><i class="fa-solid fa-check"></i> High-density coverage supporting thousands of concurrent active devices</div>
+              <div class="ph-item"><i class="fa-solid fa-check"></i> Eliminated wireless dead zones across all accommodation blocks</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Access Points (AP)</span>
+              <span>Wireless Controller</span>
+              <span>PoE Switches</span>
+              <span>RF Optimization</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Credentials Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic &amp; Qualifications</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Credentials</span></h2>
+          <p class="section-subtitle">Academic foundations and professional credentials</p>
+        </div>
+
+        <div class="education-grid">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <div class="edu-content">
+              <span class="edu-year">Graduated: July 2016</span>
+              <h3 class="edu-degree">Graduation in BTEC</h3>
+              <h4 class="edu-institution"><i class="fa-solid fa-building-columns"></i> University of Kerala</h4>
+              <p class="edu-notes">Comprehensive foundational coursework in technology, computing systems, electronics, and engineering principles.</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+            <div class="edu-content">
+              <span class="edu-year">Completed: March 2012</span>
+              <h3 class="edu-degree">Higher Secondary Examination (Class XII)</h3>
+              <h4 class="edu-institution"><i class="fa-solid fa-book-bookmark"></i> Kerala Board of Higher Secondary Examination</h4>
+              <p class="edu-notes">Higher secondary science and technical focus.</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="edu-content">
+              <span class="edu-year">Completed: March 2010</span>
+              <h3 class="edu-degree">Matriculation / Secondary Education</h3>
+              <h4 class="edu-institution"><i class="fa-solid fa-award"></i> CBSE / Kerala Board</h4>
+              <p class="edu-notes">Core secondary school curriculum.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Verification & Qatar Status Strip -->
+        <div class="credentials-bar">
+          <div class="cred-item">
+            <i class="fa-solid fa-id-card"></i>
+            <div>
+              <strong>Qatar Valid License</strong>
+              <p>Active Light Vehicle License</p>
+            </div>
+          </div>
+          <div class="cred-item">
+            <i class="fa-solid fa-file-contract"></i>
+            <div>
+              <strong>Visa &amp; Sponsorship</strong>
+              <p>Valid Qatar Visa with NOC Available</p>
+            </div>
+          </div>
+          <div class="cred-item">
+            <i class="fa-solid fa-calendar-check"></i>
+            <div>
+              <strong>Notice Period</strong>
+              <p>Immediate / Short Notice</p>
+            </div>
+          </div>
+          <div class="cred-item">
+            <i class="fa-solid fa-certificate"></i>
+            <div>
+              <strong>Domain Expertise</strong>
+              <p>Huawei Controller, Fortinet &amp; Hospitality IT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Direct Connect Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-envelope"></i> Let's Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Feel free to reach out for IT administration roles, network projects, or technical consulting in Qatar</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Col: Contact Information Cards -->
+          <div class="contact-info-col">
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-card-body">
+                <h4>Direct Phone / Call</h4>
+                <a href="tel:+97430749247" class="contact-val">+974 3074 9247</a>
+                <button class="copy-btn" data-copy="+97430749247" title="Copy Phone Number">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="contact-card-body">
+                <h4>WhatsApp Direct</h4>
+                <p>Instant chat for discussions</p>
+                <a href="https://wa.me/97430749247" target="_blank" rel="noopener noreferrer" class="contact-link-action">
+                  <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-card-body">
+                <h4>Email Address</h4>
+                <a href="mailto:123ajmalb@gmail.com" class="contact-val">123ajmalb@gmail.com</a>
+                <button class="copy-btn" data-copy="123ajmalb@gmail.com" title="Copy Email">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="contact-card-body">
+                <h4>LinkedIn Profile</h4>
+                <a href="https://linkedin.com/in/ajmal-b-9831b0178" target="_blank" rel="noopener noreferrer" class="contact-link-action">
+                  linkedin.com/in/ajmal-b-9831b0178 &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="contact-card-body">
+                <h4>Current Location</h4>
+                <p class="contact-val">Doha, Qatar</p>
+                <span class="sub-text">Open to on-site roles &amp; projects across Qatar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Col: Interactive Contact Form -->
+          <div class="contact-form-col">
+            <div class="form-wrapper">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">Fill in the form below and it will compose a direct message</p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="name">Your Name <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-user input-icon"></i>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Mohammed Al-Kuwari" required />
+                  </div>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your Email <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-envelope input-icon"></i>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="e.g. contact@company.qa" required />
+                  </div>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone / WhatsApp (Optional)</label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-phone input-icon"></i>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. +974 5555 1234" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject / Inquiry Type <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-tag input-icon"></i>
+                    <select id="subject" name="subject" class="form-control" required>
+                      <option value="" disabled selected>Select an option</option>
+                      <option value="Job Opportunity in Qatar">IT / Network Job Opportunity</option>
+                      <option value="Huawei Controller & Network Setup">Huawei Controller &amp; Network Setup</option>
+                      <option value="IT Consulting & Project Inquiry">IT Consulting &amp; Project Inquiry</option>
+                      <option value="Hospitality PMS / Network Setup">Hospitality PMS / Network Setup</option>
+                      <option value="General Technical Question">General Technical Inquiry</option>
+                    </select>
+                  </div>
+                  <span class="field-error" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message <span class="required">*</span></label>
+                  <div class="input-with-icon textarea-icon-wrapper">
+                    <i class="fa-solid fa-message input-icon"></i>
+                    <textarea id="message" name="message" rows="5" class="form-control textarea" placeholder="Please describe the position, project scope, or requirements..." required></textarea>
+                  </div>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-accent">&lt;</span>Ajmal<span class="logo-dot">.</span>B<span class="logo-accent">/&gt;</span>
+        </a>
+        <p class="footer-tagline">IT Administrator &amp; Network Engineer | Doha, Qatar</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/ajmal-b-9831b0178" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://wa.me/97430749247" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp Chat">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="mailto:123ajmalb@gmail.com" class="social-icon" aria-label="Send Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="tel:+97430749247" class="social-icon" aria-label="Phone Call">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+
+      <div class="footer-right">
+        <button id="backToTop" class="back-to-top" aria-label="Scroll back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <p class="copyright">&copy; <span id="currentYear"></span> Ajmal Badarudeen. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
