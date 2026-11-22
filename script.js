@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const roles = [
       'IT Administrator',
       'Network & Systems Engineer',
-      'Huawei Controller & AP Specialist',
+      'Huawei Controller Network Knowledge',
       'Fortinet Security Specialist',
       'Hospitality IT Lead (Opera & Micros)',
       'ELV & CCTV Infrastructure Expert'
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
         );
 
         showToast('Opening your email client to send message...');
-        window.location.href = `mailto:123ajmalb@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:ajmalbadarudeen@proton.me?subject=${subject}&body=${body}`;
 
         // Reset form after short delay
         setTimeout(() => {

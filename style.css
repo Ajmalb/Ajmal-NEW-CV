@@ -424,6 +424,35 @@ body[data-theme="light"] .moon-icon {
   margin-bottom: 60px;
 }
 
+.contact-email-row + .contact-email-row {
+  margin-top: 10px;
+}
+
+.hero-photo-wrap {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.hero-photo-ring {
+  width: 168px;
+  height: 168px;
+  padding: 4px;
+  border-radius: 50%;
+  background: var(--primary-gradient);
+  box-shadow: var(--shadow-glow), var(--shadow-md);
+  flex-shrink: 0;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid var(--bg-primary);
+}
+
 .badge-status {
   display: inline-flex;
   align-items: center;
@@ -1834,6 +1863,7 @@ select.form-control {
     gap: 48px;
   }
 
+  .hero-photo-wrap,
   .badge-status,
   .hero-role-wrapper,
   .hero-meta-badges,
@@ -1966,6 +1996,11 @@ select.form-control {
 }
 
 @media (max-width: 480px) {
+  .hero-photo-ring {
+    width: 136px;
+    height: 136px;
+  }
+
   .metrics-grid {
     grid-template-columns: 1fr;
   }
